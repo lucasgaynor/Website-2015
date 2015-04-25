@@ -1,0 +1,90 @@
+
+/* css stylesheet */
+
+
+body {
+  padding-top: 70px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+
+
+
+
+/*BARRA DE NAVEGACION*/
+/*TITULO*/
+.navbar-brand {
+text-transform:uppercase;
+font-weight: 700;
+
+}
+
+.navbar-brand .df {
+	text-transform: lowercase;
+	font-weight: 400;
+
+}
+
+
+
+@media (max-width: 480px) {
+	.df {
+		display:none;
+	}
+
+}
+
+/*REEL*/
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.video {
+max-width: 700px;
+}
+.video h1 {
+	font-size: 5vmin;
+}
+.video h2 {
+	font-size: 3vmin;
+}
+.video dt {
+	font-size: 2vmin;
+}
+
+/*PAGINA DE CONTACTOS*/
+
+.contactos {
+	font-size: 4vmin; 
+	margin-top: 15%;
+}
+
+.contactos a {
+	color:  inherit;
+}
+
+.contactos i {
+	margin-right: 0.3em;
+}
+
+.contactos a:hover {
+	color:green;
+	text-decoration: none;
+}
+
+.calling {
+	font-size: 10px;
+}
+.calling a:hover + .telefono2 {
+    display: block;
+}
+.telefono2 {
+	display: none;
+	font-size:4vmin;
+}
+
+
+/*BIO*/
+
+.bio {
+	max-width: 700px;
+	margin-top: 15%; 
+	text-align: justify;
+}
